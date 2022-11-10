@@ -28,7 +28,7 @@ module.exports = (env, { mode }) => {
     //entry: "index.js",
     output: {
       filename: isProduction ? "[name].[contenthash].js" : "[name].js",
-      path: path.resolve(__dirname, "build"),
+      path: path.resolve(__dirname, "public"),
     },
     module: {
       rules: [ruleForJavaScript, ruleForStyles],
