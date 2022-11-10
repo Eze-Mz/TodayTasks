@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border: 3px solid #09f;
+    padding: 16px;
+    color: #09f;
+    border-radius: 4px;
+}
